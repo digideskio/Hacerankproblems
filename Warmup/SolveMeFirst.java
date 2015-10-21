@@ -1,3 +1,10 @@
+Problem Statement
+
+Let's start simple. 
+Can you complete the function solveMeFirst to return the sum of the two integers passed as input parameters?
+ You can pick your favorite programming language.
+
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -14,12 +21,12 @@ public class Solution {
    
  public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a;
-        a = in.nextInt();
-        int b;
-        b = in.nextInt();
+        int _a;
+        _a = in.nextInt();
+        int _b;
+        _b = in.nextInt();
         int sum;
-        sum = solveMeFirst(a, b);
+        sum = solveMeFirst(_a, _b);
         System.out.println(sum);
    }
 }

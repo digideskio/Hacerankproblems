@@ -1,3 +1,33 @@
+Problem Statement
+
+You are given a square matrix of size N×N. Calculate the absolute difference of the sums across the two main diagonals.
+
+Input Format
+
+The first line contains a single integer N. The next N lines contain the rows of N integers describing the matrix.
+
+Constraints 
+1=N=100 
+-100=A[i]=100
+Output Format
+
+Output a single integer equal to the absolute difference in the sums across the diagonals.
+
+Sample Input
+
+3
+11 2 4
+4 5 6
+10 8 -12
+
+
+Solution:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
 public class Solution {
 
     public static void main(String[] args) {
